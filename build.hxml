@@ -1,0 +1,6 @@
+-main sandbox.Main
+#--js-modern
+-cp src/haxe
+-lib nape
+-js build/haxe-out.js
+--macro haxe.macro.CustomJSGenerator.use()
