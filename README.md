@@ -7,3 +7,24 @@ Haxe can compile into JavaScript.  However, Nape uses Haxe getters and setters, 
 
 This build script also wraps the generated JavaScript in a call to `define`, making it an AMD module that
  can be loaded with RequireJS.
+
+How To
+---
+
+Install Haxe.  I tested with 3.0.0-RC2.
+
+Install Neko if it is not installed along with Haxe.
+
+Use Haxelib to install Nape:
+
+```
+haxelib install nape
+```
+
+Run the build script:
+
+```
+build.bat
+```
+
+The result appears in `dist/nape.js`
